@@ -2,21 +2,21 @@
 https://qiita.com/crankcube@github/items/15f06b32ec56736fc43a#pyenv%E7%94%A9%E3%81%ABprofile%E3%82%92%E8%AA%BF%E6%95%B4
 
 ``
-# Home brew で pyenv をインストール
+\# Home brew で pyenv をインストール
 $ brew install pyenv
 
-# よく分からない。。。おまじない
+\# よく分からない。。。おまじない
 cat << 'EOS' >> ~/.bash_profile
-# pyenvさんに~/.pyenvではなく、/usr/loca/var/pyenvを使うようにお願いする
+\# pyenvさんに~/.pyenvではなく、/usr/loca/var/pyenvを使うようにお願いする
 export PYENV_ROOT=/usr/local/var/pyenv
 
-# pyenvさんに自動補完機能を提供してもらう
+\# pyenvさんに自動補完機能を提供してもらう
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 EOS
 source ~/.bash_profile
 
-# pyenv でインストールできるバージョンを確認
+\# pyenv でインストールできるバージョンを確認
 $ pyenv install --list
 ``
 
