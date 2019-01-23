@@ -1,5 +1,6 @@
 ### do.callの使いかた
 pforeachとの使い分けがイマイチわからん
+do.callの方が速そう
 
 ```.R
 spIds2 <- do.call("c",lapply(occList,function(x){unique(x$species_id)})) %>% unique() %>% sort()
