@@ -1,5 +1,5 @@
 ### do.callの使いかた
-pforeachとの使い分けがイマイチわからん
+pforeachとの使い分けがイマイチわからん  
 do.callの方が速そう
 
 ```.R
