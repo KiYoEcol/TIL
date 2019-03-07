@@ -15,3 +15,11 @@ $ git log {filepath}
 ```
 $ git checkout {hash} {filepath}
 ```
+
+### キャッシュの削除
+.gitignoreが反映されない場合実行すると、反映される~ときがある~
+
+```
+$ git rm -r --cached . //ファイル全体キャッシュ削除
+$ git rm -r --cached [ファイル名]  //ファイル指定してキャッシュ削除
+```
