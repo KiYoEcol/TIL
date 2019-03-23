@@ -1,3 +1,9 @@
+### リモートブランチの残骸を削除する
+[ローカルに残ったままのリモートブランチの残骸を削除する](https://statemachine.hatenablog.com/entry/2014/07/16/220007)
+```
+$git remote prune origin
+```
+
 ### 履歴でファイル名を表示
 
 ```
