@@ -1,3 +1,10 @@
+### コミットする前の変更を削除する
+[色々なgit stash](https://qiita.com/akasakas/items/768c0b563b96f8a9be9d)
+```.sh
+$git stash save #stashに変更点を記録
+$git stash drop　#stashを削除
+```
+
 ### リモートブランチの残骸を削除する
 [ローカルに残ったままのリモートブランチの残骸を削除する](https://statemachine.hatenablog.com/entry/2014/07/16/220007)
 ```
